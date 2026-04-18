@@ -1,7 +1,7 @@
 {
-  "code": "burnishedpillartop",
-  "blockmaterial": "Stone",
+  "code": "burnishedpillar",
   "replaceable": 120,
+  "blockmaterial": "Stone",
   "storageFlags": 5,
   "variantgroups": [
     {
@@ -24,45 +24,49 @@
     "canChisel": true,
     "handbook": {
       "groupBy": [
-        "burnishedpillartop-*"
+        "burnishedpillar-*"
       ]
     }
   },
   "creativeinventory": {
-    "general": ["*"],
-    "construction": ["*"]
+    "general": [
+      "*"
+    ],
+    "construction": [
+      "*"
+    ]
+  },
+  "shape": {
+    "base": "block/stone/pillar/wide"
   },
   "drawtype": "json",
-  "shape": {
-    "base": "block/stone/pillar/top"
-  },
   "texturesByType": {
     "*": {
       "side": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4"
           }
         ]
       },
       "topbottom": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4"
           }
         ]
       }
@@ -97,8 +101,16 @@
     }
   },
   "tpHandTransform": {
-    "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
-    "rotation": { "x": -2, "y": 25, "z": -78 },
+    "translation": {
+      "x": -1.23,
+      "y": -0.91,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": -2,
+      "y": 25,
+      "z": -78
+    },
     "scale": 0.4
   }
 }

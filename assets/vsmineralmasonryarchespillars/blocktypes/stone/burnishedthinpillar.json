@@ -1,7 +1,7 @@
 {
-  "code": "burnishedpillar",
-  "replaceable": 120,
+  "code": "burnishedthinpillar",
   "blockmaterial": "Stone",
+  "replaceable": 120,
   "storageFlags": 5,
   "variantgroups": [
     {
@@ -24,69 +24,65 @@
     "canChisel": true,
     "handbook": {
       "groupBy": [
-        "burnishedpillar-*"
+        "burnishedthinpillar-*"
       ]
     }
   },
   "creativeinventory": {
-    "general": [
-      "*"
-    ],
-    "construction": [
-      "*"
-    ]
-  },
-  "shape": {
-    "base": "block/stone/pillar/wide"
+    "general": ["*"],
+    "construction": ["*"]
   },
   "drawtype": "json",
+  "shape": {
+    "base": "block/stone/pillar/middle"
+  },
   "texturesByType": {
     "*": {
       "side": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4"
           }
         ]
       },
       "topbottom": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
+            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4"
           }
         ]
       }
     }
   },
   "collisionbox": {
-    "x1": 0,
+    "x1": 0.1875,
     "y1": 0,
-    "z1": 0,
-    "x2": 1,
+    "z1": 0.1875,
+    "x2": 0.8125,
     "y2": 1,
-    "z2": 1
+    "z2": 0.8125
   },
   "selectionbox": {
-    "x1": 0,
+    "x1": 0.1875,
     "y1": 0,
-    "z1": 0,
-    "x2": 1,
+    "z1": 0.1875,
+    "x2": 0.8125,
     "y2": 1,
-    "z2": 1
+    "z2": 0.8125
   },
   "sideAo": { "all": false },
   "sidesolid": { "all": false },

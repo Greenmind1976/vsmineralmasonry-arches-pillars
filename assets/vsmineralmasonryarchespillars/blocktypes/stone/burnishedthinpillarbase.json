@@ -1,5 +1,5 @@
 {
-  "code": "burnishedpillarbase",
+  "code": "burnishedthinpillarbase",
   "blockmaterial": "Stone",
   "replaceable": 120,
   "storageFlags": 5,
@@ -24,7 +24,7 @@
     "canChisel": true,
     "handbook": {
       "groupBy": [
-        "burnishedpillarbase-*"
+        "burnishedthinpillarbase-*"
       ]
     }
   },
@@ -34,36 +34,24 @@
   },
   "drawtype": "json",
   "shape": {
-    "base": "block/stone/pillar/base"
+    "base": "block/stone/pillar/thinbase"
   },
   "texturesByType": {
     "*": {
       "side": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
         "alternates": [
-          {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
-          },
-          {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
-          },
-          {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
-          }
+          { "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2" },
+          { "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3" },
+          { "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4" }
         ]
       },
       "topbottom": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
         "alternates": [
-          {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
-          },
-          {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
-          },
-          {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
-          }
+          { "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2" },
+          { "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3" },
+          { "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4" }
         ]
       }
     }

@@ -1,5 +1,5 @@
 {
-  "ingredientPattern": "H  \nCB \n   ",
+  "ingredientPattern": "H  \nC  \n  B",
   "ingredients": {
     "H": {
       "type": "item",
@@ -35,7 +35,7 @@
   "height": 3,
   "output": {
     "type": "block",
-    "code": "vsmineralmasonry:burnishedpillar-{rock}",
+    "code": "vsmineralmasonryarchespillars:burnishedthinpillarbase-{rock}",
     "quantity": 1
   }
 }
