@@ -7,16 +7,16 @@
     {
       "code": "rock",
       "states": [
-        "basalt",
-        "granite",
-        "whitemarble",
-        "slate",
-        "chert",
-        "phyllite",
         "andesite",
+        "basalt",
+        "chalk",
+        "chert",
+        "granite",
         "limestone",
+        "phyllite",
         "shale",
-        "chalk"
+        "slate",
+        "whitemarble"
       ]
     }
   ],
@@ -88,9 +88,15 @@
     "y2": 1,
     "z2": 1
   },
-  "sideAo": { "all": false },
-  "sidesolid": { "all": false },
-  "sideopaque": { "all": false },
+  "sideAo": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
   "sounds": {
     "walk": "walk/stone",
     "byTool": {

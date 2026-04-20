@@ -1,7 +1,7 @@
 {
-  "code": "burnishedthinpillarbase",
-  "blockmaterial": "Stone",
+  "code": "pillar",
   "replaceable": 120,
+  "blockmaterial": "Stone",
   "storageFlags": 5,
   "variantgroups": [
     {
@@ -9,13 +9,27 @@
       "states": [
         "andesite",
         "basalt",
+        "bauxite",
         "chalk",
         "chert",
+        "claystone",
+        "conglomerate",
         "granite",
+        "greenmarble",
+        "halite",
+        "kimberlite",
         "limestone",
+        "obsidian",
+        "peridotite",
         "phyllite",
+        "redmarble",
+        "sandstone",
+        "scoria",
         "shale",
         "slate",
+        "suevite",
+        "travertine",
+        "tuff",
         "whitemarble"
       ]
     }
@@ -24,7 +38,7 @@
     "canChisel": true,
     "handbook": {
       "groupBy": [
-        "burnishedthinpillarbase-*"
+        "pillar-*"
       ]
     }
   },
@@ -36,37 +50,37 @@
       "*"
     ]
   },
-  "drawtype": "json",
   "shape": {
-    "base": "block/stone/pillar/thinbase"
+    "base": "block/stone/pillar/wide"
   },
+  "drawtype": "json",
   "texturesByType": {
     "*": {
       "side": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "game:block/stone/rock/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
+            "base": "game:block/stone/rock/{rock}2"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
+            "base": "game:block/stone/rock/{rock}3"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
+            "base": "game:block/stone/rock/{rock}4"
           }
         ]
       },
       "topbottom": {
-        "base": "vsmineralmasonry:block/stone/slabbase/{rock}1",
+        "base": "game:block/stone/rock/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}2"
+            "base": "game:block/stone/rock/{rock}2"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}3"
+            "base": "game:block/stone/rock/{rock}3"
           },
           {
-            "base": "vsmineralmasonry:block/stone/slabbase/{rock}4"
+            "base": "game:block/stone/rock/{rock}4"
           }
         ]
       }
