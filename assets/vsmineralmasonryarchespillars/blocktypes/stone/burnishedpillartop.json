@@ -7,16 +7,16 @@
     {
       "code": "rock",
       "states": [
-        "basalt",
-        "granite",
-        "whitemarble",
-        "slate",
-        "chert",
-        "phyllite",
         "andesite",
+        "basalt",
+        "chalk",
+        "chert",
+        "granite",
         "limestone",
+        "phyllite",
         "shale",
-        "chalk"
+        "slate",
+        "whitemarble"
       ]
     }
   ],
@@ -29,8 +29,12 @@
     }
   },
   "creativeinventory": {
-    "general": ["*"],
-    "construction": ["*"]
+    "general": [
+      "*"
+    ],
+    "construction": [
+      "*"
+    ]
   },
   "drawtype": "json",
   "shape": {
@@ -84,9 +88,15 @@
     "y2": 1,
     "z2": 1
   },
-  "sideAo": { "all": false },
-  "sidesolid": { "all": false },
-  "sideopaque": { "all": false },
+  "sideAo": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
   "sounds": {
     "walk": "walk/stone",
     "byTool": {
@@ -97,8 +107,16 @@
     }
   },
   "tpHandTransform": {
-    "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
-    "rotation": { "x": -2, "y": 25, "z": -78 },
+    "translation": {
+      "x": -1.23,
+      "y": -0.91,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": -2,
+      "y": 25,
+      "z": -78
+    },
     "scale": 0.4
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ingredientPattern": "   \n H \nBC ",
+  "ingredientPattern": "  B\n H \n C ",
   "ingredients": {
     "H": {
       "type": "item",
@@ -15,32 +15,18 @@
     },
     "B": {
       "type": "block",
-      "code": "game:rock-*",
+      "code": "vsmineralmasonrymuralslabs:burnished-*",
       "name": "rock",
       "allowedVariants": [
         "andesite",
         "basalt",
-        "bauxite",
         "chalk",
         "chert",
-        "claystone",
-        "conglomerate",
         "granite",
-        "greenmarble",
-        "halite",
-        "kimberlite",
         "limestone",
-        "obsidian",
-        "peridotite",
         "phyllite",
-        "redmarble",
-        "sandstone",
-        "scoria",
         "shale",
         "slate",
-        "suevite",
-        "travertine",
-        "tuff",
         "whitemarble"
       ]
     }
@@ -49,7 +35,7 @@
   "height": 3,
   "output": {
     "type": "block",
-    "code": "vsmineralmasonryarchespillars:arch-{rock}-leftlower-north",
+    "code": "vsmineralmasonryarchespillars:burnishedarch-{rock}-rightupper-north",
     "quantity": 1
   }
 }

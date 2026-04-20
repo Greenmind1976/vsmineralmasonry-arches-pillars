@@ -1,5 +1,5 @@
 {
-  "code": "burnishedarch",
+  "code": "arch",
   "blockmaterial": "Stone",
   "replaceable": 120,
   "storageFlags": 5,
@@ -14,13 +14,27 @@
       "states": [
         "andesite",
         "basalt",
+        "bauxite",
         "chalk",
         "chert",
+        "claystone",
+        "conglomerate",
         "granite",
+        "greenmarble",
+        "halite",
+        "kimberlite",
         "limestone",
+        "obsidian",
+        "peridotite",
         "phyllite",
+        "redmarble",
+        "sandstone",
+        "scoria",
         "shale",
         "slate",
+        "suevite",
+        "travertine",
+        "tuff",
         "whitemarble"
       ]
     },
@@ -43,7 +57,7 @@
     "canChisel": true,
     "handbook": {
       "groupBy": [
-        "burnishedarch-{rock}-{piece}-*"
+        "arch-{rock}-{piece}-*"
       ]
     }
   },
@@ -149,30 +163,30 @@
   "texturesByType": {
     "*": {
       "side": {
-        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
+        "base": "game:block/stone/rock/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2"
+            "base": "game:block/stone/rock/{rock}2"
           },
           {
-            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3"
+            "base": "game:block/stone/rock/{rock}3"
           },
           {
-            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4"
+            "base": "game:block/stone/rock/{rock}4"
           }
         ]
       },
       "topbottom": {
-        "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}1",
+        "base": "game:block/stone/rock/{rock}1",
         "alternates": [
           {
-            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}2"
+            "base": "game:block/stone/rock/{rock}2"
           },
           {
-            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}3"
+            "base": "game:block/stone/rock/{rock}3"
           },
           {
-            "base": "vsmineralmasonryarchespillars:block/stone/slabbase/{rock}4"
+            "base": "game:block/stone/rock/{rock}4"
           }
         ]
       }

@@ -20,13 +20,27 @@
       "allowedVariants": [
         "andesite",
         "basalt",
+        "bauxite",
         "chalk",
         "chert",
+        "claystone",
+        "conglomerate",
         "granite",
+        "greenmarble",
+        "halite",
+        "kimberlite",
         "limestone",
+        "obsidian",
+        "peridotite",
         "phyllite",
+        "redmarble",
+        "sandstone",
+        "scoria",
         "shale",
         "slate",
+        "suevite",
+        "travertine",
+        "tuff",
         "whitemarble"
       ]
     }
@@ -35,7 +49,7 @@
   "height": 3,
   "output": {
     "type": "block",
-    "code": "vsmineralmasonryarchespillars:burnishedarch-{rock}-leftupper-north",
+    "code": "vsmineralmasonryarchespillars:arch-{rock}-leftupper-north",
     "quantity": 1
   }
 }
