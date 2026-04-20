@@ -15,7 +15,7 @@
     },
     "B": {
       "type": "block",
-      "code": "vsmineralmasonry:burnished-*",
+      "code": "vsmineralmasonrymuralslabs:burnished-*",
       "name": "rock",
       "allowedVariants": [
         "andesite",
