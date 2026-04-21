@@ -1,14 +1,23 @@
 # VSMineralMasonry - Arches and Pillars
 
-Standalone Vintage Story mod for the refined structural stonework pieces from VSMineralMasonry.
+`VSMineralMasonry - Arches and Pillars` is a focused building mod for players who want cleaner stone structure pieces without pulling in the full Mineral Masonry set.
 
-## Included Content
+It adds a compact library of burnished stone support pieces for framing entrances, colonnades, facades, interiors, and other formal builds where plain cubes feel too heavy.
+
+## What It Adds
 
 - Burnished arches
 - Burnished pillars
 - Burnished pillar bases and tops
 - Burnished thin pillars
 - Burnished thin pillar bases and tops
+
+## Best Use Cases
+
+- Building temple, civic, and manor-style exteriors
+- Breaking up flat stone walls with vertical support pieces
+- Adding lighter trim and structure to interiors
+- Creating repeated archways, cloisters, and covered walkways
 
 ## Build
 
@@ -28,8 +37,10 @@ Create a distributable zip with:
 
 ## Local Install
 
-Install the built mod into your local Vintage Story app with:
+Install the built mod into your local Vintage Story app with the script for the game version you are testing:
 
 ```bash
-./build-install.sh
+./build-122-install.sh
 ```
+
+For 1.21.7 testing, use `./build-install.sh`. For final 1.22 testing, this branch targets `/Applications/Vintage Story 1.22.app` and requires Vintage Story `1.22.0`.

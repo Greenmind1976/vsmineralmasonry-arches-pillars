@@ -9,6 +9,6 @@
     "description": "Standalone arches and pillars from VSMineralMasonry.",
     "version": "1.22.0",
     "dependencies": {
-        "game": "1.22.0-rc.8"
+        "game": "1.22.0"
     }
 }
