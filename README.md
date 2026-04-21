@@ -2,15 +2,15 @@
 
 `VSMineralMasonry - Arches and Pillars` is a focused building mod for players who want cleaner stone structure pieces without pulling in the full Mineral Masonry set.
 
-It adds a compact library of burnished stone support pieces for framing entrances, colonnades, facades, interiors, and other formal builds where plain cubes feel too heavy.
+It adds a compact library of stone support pieces for framing entrances, colonnades, facades, interiors, and other formal builds where plain cubes feel too heavy.
 
 ## What It Adds
 
-- Burnished arches
-- Burnished pillars
-- Burnished pillar bases and tops
-- Burnished thin pillars
-- Burnished thin pillar bases and tops
+- Arches
+- Pillars
+- Pillar bases and caps
+- Narrow pillars
+- Narrow pillar bases and caps
 
 ## Best Use Cases
 
